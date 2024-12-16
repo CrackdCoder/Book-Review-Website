@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+     background-image: url('/Images\ asstes/cover2.jpg'); 
+    background-size: contain; /* Fits the entire image in the viewport */
+    background-color: #ccc; /* Optional: Adds a background color for padding space */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  
+  
+  .container {
+    background: rgba(255, 255, 255, 0.9); /* Slight transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+  }
+  
+  .form-container {
+    text-align: center;
+  }
+  
+  .form-toggle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-toggle button {
+    width: 50%;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #login-toggle.active,
+  #signup-toggle.active {
+    border-bottom: 2px solid #ff4757;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form.hidden {
+    display: none;
+  }
+  
+  .form h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .form button {
+    padding: 10px;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #ff6b81;
+  }
+  
+  .form p {
+    font-size: 14px;
+  }
+  
+  .form p a {
+    color: #ff4757;
+    text-decoration: none;
+  }
+  
+  .form p a:hover {
+    text-decoration: underline;
+  }

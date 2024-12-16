@@ -1,0 +1,257 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0px;
+    background-color: #edede9;
+     line-height:1.6; 
+    
+}
+
+    /* nav-bar */
+  
+   .navebar {
+    background-color: #B3C8CF;
+     color: #fff; 
+      color: rgb(14, 6, 0);
+     padding: 5px ; 
+     position: static;
+      display: flex;
+      justify-content: space-evenly; 
+     font-weight: 50px;
+     top: 0;
+    z-index: 1000;  
+    
+  
+  } 
+  /* nav logo */
+  .nav-logo{
+          height: 50px;
+      width: 100px; 
+       font-size: 25px;
+     
+   } 
+   .logosize{
+    font-size: larger;
+   }
+   .logosize{
+    font-size: larger;
+   }
+   /* search input */
+  .search-input{
+    border-left:10px;
+    width: 100%;
+    background-color: #f3f3f3;
+    font-size: 1rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  
+  } 
+   .nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(243, 148, 16);
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+     border:none;
+     margin-top: 5px;
+    
+  } 
+  .nav-search:hover{
+    border: 2px solid orange;
+  } 
+    span{
+       justify-content: center;
+    align-content: center; 
+      color: #070707e3;
+  } 
+  a{
+    color: #080303;
+    text-decoration: none;
+    font-size: larger;
+    font-size: 17px;
+    padding-top: 10px;
+   
+   
+  }
+
+.book-review {
+    
+     margin-left: 40px;
+     margin-right: 40px;
+} 
+img{
+    border-radius: 50px;
+}
+
+.book-info {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.book-cover {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(212, 74, 29, 0.1);
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  .heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
+  
+  .style{
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+  .rate{
+    text-align: center;
+  }
+  /* Three column layout */
+  .side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+  }
+  
+  .middle {
+    float: left;
+    width: 70%;
+    margin-top: 10px;
+  }
+  
+  /* Place text to the right */
+  .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .bar-5a {width: 29%; height: 18px; background-color: #ffea00;}
+  .bar-4a {width: 40%; height: 18px; background-color: #ffea00;}
+  .bar-3a {width: 23%; height: 18px; background-color: #ffea00;}
+  .bar-2a {width: 1%; height: 18px; background-color: #ffea00;}
+  .bar-1a {width: 5%; height: 18px; background-color: #ffea00;}
+
+  .bar-5b {width: 50%; height: 18px; background-color: #ffea00;}
+  .bar-4b {width: 33%; height: 18px; background-color: #ffea00;}
+  .bar-3b {width: 12%; height: 18px; background-color: #ffea00;}
+  .bar-2b {width: 4%; height: 18px; background-color: #ffea00;}
+  .bar-1b {width: 1%; height: 18px; background-color: #ffea00;}
+  
+  .bar-5c {width: 42%; height: 18px; background-color: #ffea00;}
+  .bar-4c {width: 25%; height: 18px; background-color: #ffea00;}
+  .bar-3c {width: 27%; height: 18px; background-color: #ffea00;}
+  .bar-2c {width: 4%; height: 18px; background-color: #ffea00;}
+  .bar-1c {width: 0%; height: 18px; background-color: #ffea00;}
+  
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .side, .middle {
+      width: 100%;
+    }
+    /* Hide the right column on small screens */
+    .right {
+      display: none;
+    }
+  }
+
+.details {
+    flex: 1;
+}
+
+.details h1 {
+    font-size: 24px;
+     margin-bottom: 10px; 
+    color: #1c7244;
+}
+
+.details p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.details p strong {
+    color: #0a0a0a;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #5cb85c;
+    color: white;
+     border: none;
+    border-radius: 5px; 
+    text-decoration: none;
+    font-size: 14px;
+     cursor: pointer; 
+}
+
+.btn:hover {
+    background-color: #4cae4c;
+}
+
+.community-reviews {
+    margin-top: 30px;
+}
+
+.community-reviews h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.ratings-breakdown {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ratings-breakdown li {
+    margin: 5px 0;
+    color: #555;
+}
+footer {
+    background-color: #BCCCDC;
+    color: #080808;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: larger;
+  }
+  footer p {
+    margin: 10px;
+   
+  }

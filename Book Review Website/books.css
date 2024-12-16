@@ -1,0 +1,146 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+   
+}
+h1{
+    text-align: center;
+    color: rgb(16, 16, 17);
+}
+h2{
+  color: #1C7244;
+}
+
+.navebar {
+    background-color: #B3C8CF;
+     color: #fff; 
+      color: rgb(14, 6, 0);
+     padding: 5px ; 
+     position: static;
+      display: flex;
+      justify-content: space-evenly; 
+     font-weight: 50px;
+     top: 0;
+    z-index: 1000;  
+    
+  
+  } 
+  .nav-logo{
+          height: 50px;
+      width: 100px; 
+       font-size: 25px;
+      
+      
+   } 
+   .logosize{
+    font-size: larger;
+   
+   }
+  .search-input{
+    border-left:10px;
+    width: 100%;
+    background-color: #f3f3f3;
+    font-size: 1rem;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  
+  } 
+   .nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(243, 148, 16);
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+     border:none;
+     margin-top: 5px;
+    
+  } 
+  .nav-search:hover{
+    border: 2px solid orange;
+  } 
+    span{
+       justify-content: center;
+    align-content: center; 
+      color: #070707e3;
+  } 
+  a{
+    color: #080303;
+    text-decoration: none;
+    font-size: 17px;
+    padding-top: 10px;
+  }
+  
+   
+
+.book-section {
+       margin: 0px 60px 7px 90px;  
+        background: #fffffd;
+          display: flex; 
+   }
+
+.book-image {
+    flex: 1 1 300px;
+    max-width: 250px;
+     margin-right: 20px;
+}
+
+.book-image img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.book-details {
+    flex: 2;
+}
+
+.book-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.book-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.book-details .rating {
+    margin: 10px 0;
+}
+
+.book-details .rating span {
+    font-size: 20px;
+    color: #ffc107;
+    margin-right: 5px;
+}
+
+.book-details .tags {
+    margin-top: 15px;
+}
+
+.book-details .tags span {
+    background: #d1dbd5;
+    color: #060606;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-right: 10px;
+    display: inline-block;
+}
+footer {
+    background-color: #BCCCDC;
+    color: #080808;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: larger;
+  }
+  footer p {
+    margin: 10px;
+   
+  }
