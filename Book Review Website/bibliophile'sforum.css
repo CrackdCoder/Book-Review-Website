@@ -43,7 +43,7 @@ body{
  }
 
 /* creating search bar */
-#search-input{
+.search-input{
   border-left:10px;
   width: 100%;
   background-color: #f3f3f3;
@@ -51,6 +51,7 @@ body{
   border: none;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
+ 
 }
 /* search icon styling */
  .nav-search{
@@ -60,6 +61,7 @@ body{
   width: 300px;
   height: 30px;
   border-radius: 5px;
+  margin-top: 8px;
   
    border:none;
   

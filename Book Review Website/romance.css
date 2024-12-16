@@ -55,7 +55,7 @@
     height: 30px;
     border-radius: 5px;
      border:none;
-     margin-top: 5px;
+     margin-top: 8px;
     
   } 
   .nav-search:hover{
@@ -102,13 +102,7 @@ img{
 * {
     box-sizing: border-box;
   }
-  
-  body {
-    font-family: Arial;
-    margin: 0 auto; /* Center website */
-    
-  }
-  
+
   .heading {
     font-size: 25px;
     margin-right: 25px;
