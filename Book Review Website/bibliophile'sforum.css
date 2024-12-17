@@ -15,8 +15,7 @@ body{
    color: #111111; 
     color: rgb(11, 11, 11);
    padding: 5px ; 
-   padding-top: px;
-   position: static;
+      position: static;
     display: flex;
     justify-content: space-evenly; 
    font-weight: 50px;
@@ -117,7 +116,7 @@ p{
   color: #0b0b0b;
   
   padding: 1rem 2rem;
-  border-radius: px;
+  
   font-size: 24px;
 }
 /* giving head */
